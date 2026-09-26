@@ -1,6 +1,6 @@
 # Crie um programa que leia o nome de uma cidade e diga se ela começa ou não com o nome "SANTO"
 
-cid = input("Digite o nome da cidade: ")
+cid = input("Digite o nome da cidade: ").strip()
 cid_separado = cid.split()
 primeiro_nome_cid = cid_separado[0]
 
