@@ -3,7 +3,7 @@ from random import randint
 
 num = randint(0, 5)
 
-print(f'Vou pensar em um numero entre 0 e 5')
+print(f'Vou pensar em um numero entre 0 e 5. Tende adivinhar...')
 escolha = int(input("Escolha um número de 0 a 5: "))
 
 if escolha == num:
