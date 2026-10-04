@@ -1,6 +1,7 @@
 # Jokenpô
 from random import randint
 
+# Vai usar o índice para esolher
 itens = ('Pedra', 'Papel', 'Tesoura')
 
 npc_escolha = randint(0, 2)
